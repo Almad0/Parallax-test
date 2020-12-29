@@ -8,6 +8,91 @@ body{
 
 }
 
+.head{
+  font-size: 50px;
+  padding: 30px;
+  border: 3px solid white;
+  color: white;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.par1 {
+  background-image: url("../img/1.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cov1{
+  height: 500px;
+  background-color: black;
+}
+
+.par2 {
+  background-image: url("../img/2.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cov2{
+  height: 500px;
+  background-color: black;
+
+}
+
+.par3 {
+  background-image: url("../img/3.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cov3{
+  height: 500px;
+  background-color: black;
+}
+
+.par4 {
+  background-image: url("../img/4.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cov4{
+  height: 500px;
+  background-color: black;
+}
+
+.par5 {
+  background-image: url("../img/5.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cov5{
+  flex-direction: column;
+  height: 1000px;
+  background-color: black;
+}
+
+.cov5 img{
+  width: 400px;
+  margin-top: 100px;
+}
 
 
 
@@ -27,5 +112,4 @@ body{
 
 
 
-
-/* fin */
+/* fine */
