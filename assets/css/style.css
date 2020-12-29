@@ -87,16 +87,31 @@ body{
   flex-direction: column;
   height: 1000px;
   background-color: black;
+  position: relative;
+}
+
+.cov5 p:first-child{
+  margin-top: 50px;
 }
 
 .cov5 img{
-  width: 400px;
-  margin-top: 100px;
+  width: 300px;
+  margin-top: 60px;
 }
 
+.side{
+  border-top: none;
+}
 
-
-
+.blackCover{
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translateX(-50.1%);
+  width: 401px;
+  height: 30px;
+  background-color: black;
+  }
 
 
 
