@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+.head{
+  font-size: 50px;
+  padding: 30px;
+  border: 3px solid white;
+  color: white;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.par1 {
+  background-image: url("../img/1.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cov1{
+  height: 500px;
+  background-color: black;
+}
+
+.par2 {
+  background-image: url("../img/2.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cov2{
+  height: 500px;
+  background-color: black;
+
+}
+
+.par3 {
+  background-image: url("../img/3.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cov3{
+  height: 500px;
+  background-color: black;
+}
+
+.par4 {
+  background-image: url("../img/4.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cov4{
+  height: 500px;
+  background-color: black;
+}
+
+
+
+.par5 {
+  background-image: url("../img/5.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cov5{
+  flex-direction: column;
+  height: 1000px;
+  background-color: black;
+  position: relative;
+}
+
+.cov5 p:first-child{
+  margin-top: 50px;
+}
+
+.cov5 img{
+  width: 300px;
+  margin-top: 60px;
+}
+
+.side{
+  border-top: none;
+}
+
+.blackCover{
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translateX(-50.1%);
+  width: 401px;
+  height: 30px;
+  background-color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fine */
